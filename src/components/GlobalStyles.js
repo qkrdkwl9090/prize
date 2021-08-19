@@ -1,9 +1,8 @@
-import { createGlobalStyle } from "styled-components"; 
+import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 
 const globalStyles = createGlobalStyle`
     ${reset};
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
     a{
         text-decoration:none;
         color:inherit;
@@ -11,14 +10,11 @@ const globalStyles = createGlobalStyle`
     *{
         box-sizing:border-box;
     }
-
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
     body{        
-        font-family: 'Noto Sans KR', sans-serif;
+        font-family: "Noto Sans KR", sans-serif, 'Noto Sans';
         font-size:12px;
-        background:linear-gradient(to bottom, rgb(36,44,57), rgb(26,30,39));    
-        color:white;
-        padding-left: 230px;
-        padding-right: 350px;
+        background:white;    
     }
     ul{
         list-style:none;

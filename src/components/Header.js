@@ -11,7 +11,7 @@ const Header = styled.header`
     height:80px;
     z-index: 9;
     background:WHITE;    
-    box-shadow: 0px 1px 5px 2px rgba(0,0,0, 0.8);
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0, 0.2);
 `;
 const Inner = styled.div`
     width: 1024px;
